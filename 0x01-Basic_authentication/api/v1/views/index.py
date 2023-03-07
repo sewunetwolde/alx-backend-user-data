@@ -41,4 +41,4 @@ def test_unathourized() -> str:
     Return:
       - Raise error
     """
-    return abort(401)
+    return abort(403)
